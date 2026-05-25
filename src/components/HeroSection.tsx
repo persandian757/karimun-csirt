@@ -26,8 +26,10 @@ const HeroSection = () => {
           <Button variant="default" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
             Selengkapnya
           </Button>
-          <Button variant="outline" size="lg" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
-            Lapor Insiden
+          <Button asChild variant="outline" size="lg" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
+            <a href="https://eticketing-csirt.karimunkab.go.id" target="_blank" rel="noopener noreferrer">
+              Lapor Insiden
+            </a>
           </Button>
         </div>
       </div>

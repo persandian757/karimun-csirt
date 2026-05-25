@@ -2,13 +2,13 @@ import { useState } from "react";
 import { Menu, X, Shield } from "lucide-react";
 
 const navItems = [
-  { label: "Beranda", href: "#beranda" },
-  { label: "Profil", href: "#profil" },
-  { label: "Artikel", href: "#artikel" },
-  { label: "RFC2350", href: "#rfc2350" },
-  { label: "Layanan", href: "#layanan" },
-  { label: "Panduan", href: "#panduan" },
-  { label: "Kontak", href: "#kontak" },
+  { label: "Beranda", href: "/#beranda" },
+  { label: "Profil", href: "/#profil" },
+  { label: "Artikel", href: "/#artikel" },
+  { label: "RFC2350", href: "/rfc2350" },
+  { label: "Layanan", href: "/#layanan" },
+  { label: "Panduan", href: "/panduan" },
+  { label: "Kontak", href: "/#kontak" },
 ];
 
 const Navbar = () => {
