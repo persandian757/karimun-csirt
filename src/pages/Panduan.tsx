@@ -80,11 +80,19 @@ const Panduan = () => {
               </div>
               <p className="text-xs text-muted-foreground mb-3">Ukuran: {p.ukuran}</p>
               <div className="flex gap-2">
-                <Button asChild size="sm" variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90 flex-1">
-                  <a href={p.unduh}><Download className="h-4 w-4 mr-1" /> Unduh</a>
+                <Button asChild={!!p.unduh} disabled={!p.unduh} size="sm" variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90 flex-1">
+                  {p.unduh ? (
+                    <a href={p.unduh} target="_blank" rel="noopener noreferrer"><Download className="h-4 w-4 mr-1" /> Unduh</a>
+                  ) : (
+                    <span><Download className="h-4 w-4 mr-1" /> Unduh</span>
+                  )}
                 </Button>
-                <Button asChild size="sm" variant="outline" className="flex-1">
-                  <a href={p.lihat}><Eye className="h-4 w-4 mr-1" /> Lihat</a>
+                <Button asChild={!!p.lihat} disabled={!p.lihat} size="sm" variant="outline" className="flex-1">
+                  {p.lihat ? (
+                    <a href={p.lihat} target="_blank" rel="noopener noreferrer"><Eye className="h-4 w-4 mr-1" /> Lihat</a>
+                  ) : (
+                    <span><Eye className="h-4 w-4 mr-1" /> Lihat</span>
+                  )}
                 </Button>
               </div>
             </div>
