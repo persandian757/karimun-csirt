@@ -46,14 +46,22 @@ const Panduan = () => {
                   <td className="px-4 py-3 font-medium">{p.no}.</td>
                   <td className="px-4 py-3">{p.nama}</td>
                   <td className="px-4 py-3 text-center">
-                    <a href={p.unduh} className="inline-flex items-center gap-1 text-accent hover:underline">
-                      <Download className="h-4 w-4" /> Unduh
-                    </a>
+                    {p.unduh ? (
+                      <a href={p.unduh} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-accent hover:underline">
+                        <Download className="h-4 w-4" /> Unduh
+                      </a>
+                    ) : (
+                      <span className="text-muted-foreground">-</span>
+                    )}
                   </td>
                   <td className="px-4 py-3 text-center">
-                    <a href={p.lihat} className="inline-flex items-center gap-1 text-primary hover:underline">
-                      <Eye className="h-4 w-4" /> Lihat
-                    </a>
+                    {p.lihat ? (
+                      <a href={p.lihat} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-primary hover:underline">
+                        <Eye className="h-4 w-4" /> Lihat
+                      </a>
+                    ) : (
+                      <span className="text-muted-foreground">-</span>
+                    )}
                   </td>
                   <td className="px-4 py-3 text-center text-muted-foreground">{p.ukuran}</td>
                 </tr>
