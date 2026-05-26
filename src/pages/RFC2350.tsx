@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { FileText, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const PDF_URL = "https://csirt.slemankab.go.id/wp-content/uploads/2024/01/3.-RFC2350_Sleman_sign_signed.pdf";
+const PDF_URL = "/RFC-2350-KARIMUN-TTIS-v1.1_sign.pdf";
 
 const RFC2350 = () => {
   return (
