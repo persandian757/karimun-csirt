@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="#beranda" className="flex items-center gap-2">
           <Shield className="h-8 w-8 text-accent" />
-          <span className="text-lg font-bold text-nav-foreground">KARIMUN-CSIRT</span>
+          <span className="text-lg font-bold text-nav-foreground">KARIMUN CSIRT</span>
         </a>
 
         {/* Desktop */}
