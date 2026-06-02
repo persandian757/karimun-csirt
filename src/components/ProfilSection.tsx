@@ -1,4 +1,5 @@
 import { Shield, Target, Users, Globe } from "lucide-react";
+import karimunLogo from "@/assets/karimun-csirt-logo.png.asset.json";
 
 const highlights = [
   {
@@ -28,6 +29,13 @@ const ProfilSection = () => {
     <section id="profil" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          <div className="flex justify-center mb-6">
+            <img
+              src={karimunLogo.url}
+              alt="Logo KARIMUN-CSIRT"
+              className="h-32 w-auto md:h-40 drop-shadow-lg"
+            />
+          </div>
           <h2 className="text-3xl font-bold text-center text-foreground mb-8">
             Profil <span className="text-accent">KARIMUN CSIRT</span>
           </h2>
