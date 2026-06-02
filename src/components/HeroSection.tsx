@@ -27,7 +27,7 @@ const HeroSection = () => {
             Selengkapnya
           </Button>
           <Button variant="default" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
-          <-- 
+          <!-- 
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground font-semibold border-0">
             -->
             
