@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Shield className="h-7 w-7 text-accent" />
-              <span className="text-lg font-bold">KARIMUN-CSIRT</span>
+              <span className="text-lg font-bold">KARIMUN CSIRT</span>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Tim Tanggap Insiden Siber Kabupaten Karimun. Melindungi ruang siber pemerintah daerah.
