@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-primary-foreground/70">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
-                csirt@karimunkab.go.id
+                csirt[@]karimunkab.go.id
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-accent" />
