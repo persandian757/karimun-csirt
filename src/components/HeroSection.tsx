@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-4 text-center py-32">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary-foreground mb-6 animate-fade-in-up">
-          KARIMUN-CSIRT
+          KARIMUN CSIRT
         </h1>
         <p className="max-w-2xl mx-auto text-primary-foreground/85 text-base md:text-lg leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
           Tim Tanggap Insiden Siber (Cyber Security Incident Response Team) Kabupaten Karimun.
