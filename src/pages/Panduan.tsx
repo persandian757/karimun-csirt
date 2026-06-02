@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 
 const panduanList = [
   { no: 1, nama: "Panduan Pengajuan Subdomain dan Penetration Test", unduh: "", lihat: "", ukuran: "456 KB" },
-  { no: 2, nama: "Panduan Penanganan Insiden Web Defacement", unduh: "https://csirt.slemankab.go.id/download/2-panduan-penanganan-insiden-web-defacement/", lihat: "https://csirt.slemankab.go.id/2023/11/15/2-panduan-penanganan-insiden-web-defacement/", ukuran: "1 MB" },
-  { no: 3, nama: "Panduan Penanganan Insiden Serangan DDoS", unduh: "https://csirt.slemankab.go.id/download/3-panduan-penanganan-insiden-serangan-ddos/", lihat: "https://csirt.slemankab.go.id/2023/11/15/3-panduan-penanganan-insiden-serangan-ddos/", ukuran: "857 KB" },
-  { no: 4, nama: "Panduan Penanganan Insiden Malware", unduh: "https://csirt.slemankab.go.id/download/4-panduan-penanganan-insiden-malware/", lihat: "https://csirt.slemankab.go.id/2023/11/15/4-panduan-penanganan-insiden-malware/", ukuran: "665 KB" },
-  { no: 5, nama: "Panduan Penanganan Insiden Ransomware", unduh: "https://csirt.slemankab.go.id/download/5-panduan-penanganan-insiden-ransomware/", lihat: "https://csirt.slemankab.go.id/2023/11/15/5-panduan-penanganan-insiden-ransomware/", ukuran: "969 KB" },
-  { no: 6, nama: "Panduan Penanganan Insiden Serangan Phishing", unduh: "https://csirt.slemankab.go.id/download/6-panduan-penanganan-insiden-serangan-phishing/", lihat: "https://csirt.slemankab.go.id/2023/11/15/6-panduan-penanganan-insiden-serangan-phishing/", ukuran: "946 KB" },
-  { no: 7, nama: "Panduan Penanganan Insiden Serangan SQL Injection", unduh: "https://csirt.slemankab.go.id/download/7-panduan-penanganan-insiden-serangan-sql-injection/", lihat: "https://csirt.slemankab.go.id/2023/11/15/7-panduan-penanganan-insiden-serangan-sql-injection/", ukuran: "811 KB" },
-  { no: 8, nama: "Panduan Penanganan Insiden Web Defacement Judi Online", unduh: "https://csirt.slemankab.go.id/download/8-panduan-penanganan-insiden-web-defacement-judi-online/", lihat: "https://csirt.slemankab.go.id/2023/11/15/8-panduan-penanganan-insiden-web-defacement-judi-online/", ukuran: "17 MB" },
-  { no: 9, nama: "Panduan Pintar Keamanan Siber", unduh: "https://csirt.slemankab.go.id/download/9-panduan-pintar-keamanan-siber/", lihat: "https://csirt.slemankab.go.id/2023/11/24/9-panduan-pintar-keamanan-siber/", ukuran: "7 MB" },
+  { no: 2, nama: "Panduan Penanganan Insiden Web Defacement", unduh: "https://drive.google.com/file/d/1oSfKueGyVSsU7AROZkgxerQ_oX2DpHHj/view?usp=sharing", lihat: "https://drive.google.com/file/d/1oSfKueGyVSsU7AROZkgxerQ_oX2DpHHj/view?usp=sharing", ukuran: "1 MB" },
+  { no: 3, nama: "Panduan Penanganan Insiden Serangan DDoS", unduh: "https://drive.google.com/file/d/10yz6hZQY7lxyWxMOKpnhhPmdJWtTqJnK/view?usp=sharing", lihat: "https://drive.google.com/file/d/10yz6hZQY7lxyWxMOKpnhhPmdJWtTqJnK/view?usp=sharing", ukuran: "857 KB" },
+  { no: 4, nama: "Panduan Penanganan Insiden Malware", unduh: "https://drive.google.com/file/d/1QJjTfGN-voJCG9NZcPxhPw86McT-jFrw/view?usp=sharing", lihat: "https://drive.google.com/file/d/1QJjTfGN-voJCG9NZcPxhPw86McT-jFrw/view?usp=sharing", ukuran: "665 KB" },
+  { no: 5, nama: "Panduan Penanganan Insiden Ransomware", unduh: "https://drive.google.com/file/d/1GOMiowM1PjeCg-nZ91d44GNd33LEcigE/view?usp=drive_link", lihat: "https://drive.google.com/file/d/1GOMiowM1PjeCg-nZ91d44GNd33LEcigE/view?usp=drive_link", ukuran: "969 KB" },
+  { no: 6, nama: "Panduan Penanganan Insiden Serangan Phishing", unduh: "https://drive.google.com/file/d/16NfoUNNM7P1AWBjC0WnYS9zL-tpuzyyV/view?usp=drive_link", lihat: "https://drive.google.com/file/d/16NfoUNNM7P1AWBjC0WnYS9zL-tpuzyyV/view?usp=drive_link", ukuran: "946 KB" },
+  { no: 7, nama: "Panduan Penanganan Insiden Serangan SQL Injection", unduh: "https://drive.google.com/file/d/1rhGrJ7c48wOgqggwa9empFY9cAAHUhTp/view?usp=drive_link", lihat: "https://drive.google.com/file/d/1rhGrJ7c48wOgqggwa9empFY9cAAHUhTp/view?usp=drive_link", ukuran: "811 KB" },
+  { no: 8, nama: "Panduan Penanganan Insiden Web Defacement Judi Online", unduh: "https://drive.google.com/file/d/1lkygSR8JT-_XyWUvT4HxLfFv63D8RGX8/view?usp=drive_link", lihat: "https://drive.google.com/file/d/1lkygSR8JT-_XyWUvT4HxLfFv63D8RGX8/view?usp=drive_link", ukuran: "17 MB" },
+  { no: 9, nama: "Panduan Pintar Keamanan Siber", unduh: "https://drive.google.com/file/d/1xNflxK0XH0Qld-VnQFqHbl7VaHNjNgiL/view?usp=drive_link", lihat: "https://drive.google.com/file/d/1xNflxK0XH0Qld-VnQFqHbl7VaHNjNgiL/view?usp=drive_link", ukuran: "7 MB" },
 ];
 
 const Panduan = () => {
