@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
-                Jl. Pemerintahan, Tanjung Balai Karimun, Kepulauan Riau
+                Dinas Komunikasi Informasi Statistik dan Persandian pada alamat Jalan Jenderal Sudirman Kelurahan Darusalam Kecamatan Meral Barat Kabupaten Karimun Provinsi Kepulauan Riau Kode pos 29622  website:  https://diskominfostaper.karimunkab.go.id/ alamaat : email csirt@karimunkab.go.id dan nomor telp 08123456789
               </li>
             </ul>
           </div>
